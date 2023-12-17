@@ -1,7 +1,11 @@
 
 const Review = () => {
   return (
-    <div>Review</div>
+    (
+    <div className="text-[#E4E4E4] py-16">
+      Review
+    </div>
+    )
   )
 }
 

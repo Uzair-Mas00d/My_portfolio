@@ -2,7 +2,7 @@ import Terminal from "@/components/terminal";
 
 export default function Home() {
   return (
-    <div className="flex justify-evenly px-3 flex-col md:flex-row">
+    <div className="flex justify-evenly px-3 flex-col md:flex-row pb-1">
       <div className="flex flex-col justify-stretch">
         <div className="text-[#E4E4E4] flex-initial text-center md:h-[500px] h-[400px] flex flex-col justify-center font-san">
           <span className="text-end px-3 text-lg font-semibold text-blue-400">

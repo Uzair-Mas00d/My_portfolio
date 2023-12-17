@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${leagueSpartan.variable, silkscreen.variable} w-screen h-screen bg-[#1B1B1D]`}
+        className={`${leagueSpartan.variable, silkscreen.variable} w-screen h-screen bg-[#1B1B1D] overflow-x-hidden`}
       >
         <Navbar />
         {children}

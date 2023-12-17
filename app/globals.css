@@ -2,3 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* .span-styling{
+    bg-[#121212], p-1, rounded-md,
+} */
+
+@layer components {
+  .span-styling {
+    @apply bg-[#141414] p-1 rounded-md;
+  }
+
+  .me-page-h1 {
+    @apply text-blue-300 text-2xl font-semibold max-sm:text-xl;
+  }
+}
