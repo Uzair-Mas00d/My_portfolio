@@ -24,8 +24,8 @@ const Me = () => {
               your go-to person for all things web and data. I'm a web wizard,
               conjuring up awesome online experiences from scratch. I'm also a
               brainiac in machine and deep learning, delving into the world of
-              smart algorithms and data mysteries. Right now, I'm student of
-              data science residing in pakistan. Meanwhile, as a freelancer, I'm
+              smart algorithms and data mysteries. Right now, I'm student of 
+              <span className="text-blue-300 md:font-bold"> data science</span> residing in <span className="text-blue-300 md:font-bold">pakistan.</span> Meanwhile, as a freelancer, I'm
               your guy for all things web-related. Whether you're after a
               website that's not just pretty but works like a charm, or you're
               curious about the cool stuff machines can do with data, I've got

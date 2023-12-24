@@ -14,4 +14,8 @@
   .me-page-h1 {
     @apply text-blue-300 text-2xl font-semibold max-sm:text-xl;
   }
+
+  .form-ele {
+    @apply outline-none px-2 py-2 bg-transparent text-[#E4E4E4] placeholder-[#E4E4E4] border-b
+  }
 }

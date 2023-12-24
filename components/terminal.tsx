@@ -34,7 +34,7 @@ const Terminal = () => {
               case "user$: help":
               case "user$:help":
                 newOutput +=
-                  "clear -> for cleaning terminal. \ncontact -> For contact info. \nbio -> For about me \nskill -> For getting skills. \nexperience -> For getting experiences. \nproject -> For getting projects.";
+                  "clear -> for cleaning terminal. \ncontact -> For contact info. \nbio -> For about me. \nskill -> For getting skills. \nexperience -> For getting experiences. \nproject -> For getting projects.";
                 break;
 
               case "user$: contact":
