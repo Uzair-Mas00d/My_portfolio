@@ -68,7 +68,7 @@ const Me = () => {
               Machine/Deep learning
             </p>
             <div className="text-[#E4E4E4] flex flex-wrap gap-3 pt-2 text-sm">
-              <span className="bg-[#121212] p-1 rounded-md">Sckit-learn</span>
+              <span className="span-styling">Sckit-learn</span>
               <span className="span-styling">Tensorflow</span>
               <span className="span-styling">Pandas</span>
               <span className="span-styling">Matplolib</span>
