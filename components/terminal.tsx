@@ -10,7 +10,7 @@ const Terminal = () => {
       <div className="px-2">
         <p className="pt-4 text-5xl font-silkscreen text-blue-400">About me</p>
         <p className="border-b text-sm font-mono text-blue-300">
-          Type '<span className="font-silkscreen">help</span>' to see all available command in Terminal
+          Type '<span className="font-bold">help</span>' to see all available command in Terminal
         </p>
         <pre className="text-sm">{output}</pre>
       </div>

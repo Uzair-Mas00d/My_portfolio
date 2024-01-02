@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation'
 export const Navbar = () => {
   const pathname = usePathname()
   return (
-    <nav className="text-lg text-[#E4E4E4] py-4 px-5 flex items-baseline bg-[#1B1B1D] fixed top-0 left-0 right-0 rounded-sm">
+    <nav className="text-lg text-[#E4E4E4] py-4 px-5 flex items-baseline bg-[#1B1B1D] fixed top-0 left-0 right-0 rounded-md">
       <div className="flex-inital">
         <Link href='/'><Image width={25} src={logo} alt='name logo'/></Link>
       </div>

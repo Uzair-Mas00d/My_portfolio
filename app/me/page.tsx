@@ -1,10 +1,11 @@
 import Image from "next/image";
 import profile from "@/public/profile.png";
 
+
 const Me = () => {
   return (
     <>
-      <div className="text-[#E4E4E4] pt-24 pb-4 flex gap-2 justify-evenly px-5 bg-[#161616] max-md:flex-col">
+      <div className="text-[#E4E4E4] pt-24 pb-4 flex md:gap-5 px-5 bg-[#161616] max-md:flex-col">
         <div className="flex-initial md:w-[35%] flex md:justify-end max-md:pb-5">
           <Image
             src={profile}
@@ -16,7 +17,7 @@ const Me = () => {
         <div className="flex-initial md:w-1/2 flex justify-start">
           <div>
             <h1 className="text-blue-300 text-4xl max-md:text-3xl font-semibold pb-3 max-sm:text-2xl">
-              // About
+              About
             </h1>
             <p className="leading-7 font-sans text-justify max-md:text-sm">
               Welcome to the virtual domain of{" "}
@@ -39,7 +40,7 @@ const Me = () => {
       </div>
 
       <div className="bg-[#121212] px-5 pt-2 pb-2">
-        <h1 className="me-page-h1">// Skills</h1>
+        <h1 className="me-page-h1">Skills</h1>
         <div className="py-2 flex max-sm:flex-col max-sm:gap-2">
           <div className="bg-[#1e1e1e] p-3 rounded-lg w-full mr-2">
             <p className="text-blue-300 font-semibold max-sm:font-normal">
@@ -89,40 +90,40 @@ const Me = () => {
       </div>
 
       <div className="bg-[#1B1B1D] px-5 pt-2 pb-2">
-        <h1 className="me-page-h1">// Projects</h1>
+        <h1 className="me-page-h1">Projects</h1>
         <p className="text-[#E4E4E4] flex justify-evenly max-sm:text-sm">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
       <div className="bg-[#161616] px-5 pt-2 pb-2">
-        <h1 className="me-page-h1">// Experiences</h1>
+        <h1 className="me-page-h1">Experiences</h1>
         <p className="text-[#E4E4E4] flex justify-evenly max-sm:text-sm">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div>
 
       <div className="bg-[#121212] pt-2 pb-4 flex flex-col justify-evenly px-5">
-        <h1 className="me-page-h1">// Contact</h1>
-        <div className="flex justify-evenly max-sm:flex-col max-sm:justify-center px-3">
+        <h1 className="me-page-h1">Contact</h1>
+        <div className="flex flex-wrap justify-evenly max-sm:flex-col max-sm:justify-center px-3">
           <p className="flex flex-col w-44">
-            <span className=" text-blue-300 font-semibold text-sm">Email:</span>{" "}
-            <span className="text-[#E4E4E4] text-xs pl-1 flex-initial">
+            <span className=" text-blue-300 font-semibold text-md max-sm:text-sm">Email:</span>{" "}
+            <span className="text-[#E4E4E4] text-sm pl-1 flex-initial max-sm:text-xs">
               uzairmasood050@gmail.com
             </span>
           </p>
           <p className="flex flex-col">
-            <span className=" text-blue-300 font-semibold text-sm">
+            <span className=" text-blue-300 font-semibold text-md max-sm:text-sm">
               Linkedin:
             </span>{" "}
-            <span className="text-[#E4E4E4] text-xs pl-1 flex-initial">
+            <span className="text-[#E4E4E4] text-sm pl-1 flex-initial max-sm:text-xs">
               https://www.linkedin.com/in/uzair-masood-9053b7276/
             </span>
           </p>
           <p className="flex flex-col">
-            <span className=" text-blue-300 font-semibold text-sm">
+            <span className=" text-blue-300 font-semibold text-md max-sm:text-sm">
               Github:
             </span>{" "}
-            <span className="text-[#E4E4E4] text-xs pl-1 flex-initial">
+            <span className="text-[#E4E4E4] text-sm pl-1 flex-initial max-sm:text-xs">
             https://github.com/Uzair-Mas00d
             </span>
           </p>
