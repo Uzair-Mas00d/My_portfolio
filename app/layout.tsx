@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   description: "Next app Portfolio",
   verification:{
     google: 'oWFmoJ1ROoUAsi20efUAxZNowTMvkqWdRj7m1pRVY3k'
+  },
+  icons:{
+    icon:[
+      '/favicon.ico?v=4'
+    ],
+    apple:[
+      '/apple-touch-icon.png?v=4'
+    ],
   }
 };
 
