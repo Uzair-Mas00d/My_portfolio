@@ -14,7 +14,7 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  robots: {index:false, follow:false},
+  robots: {index:true, follow:true},
   title: "Uzair-Masood Portfolio",
   description: "Next app Portfolio",
   verification:{
