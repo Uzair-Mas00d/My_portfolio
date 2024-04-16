@@ -51,6 +51,13 @@ const Me = () => {
               <span className="span-styling">Django</span>
               <span className="span-styling">React</span>
               <span className="span-styling">Three.js</span>
+              <span className="span-styling">Solidity</span>
+              <span className="span-styling">Ether.js</span>
+              <span className="span-styling">Hardhat</span>
+              <span className="span-styling">Docker</span>
+              <span className="span-styling">Express.js</span>
+              <span className="span-styling">Node.js</span>
+              <span className="span-styling">Redis</span>
               <span className="span-styling">MongoDb</span>
               <span className="span-styling">Firebase</span>
               <span className="span-styling">MySql</span>
@@ -71,6 +78,7 @@ const Me = () => {
             <div className="text-[#E4E4E4] flex flex-wrap gap-3 pt-2 text-sm">
               <span className="span-styling">Sckit-learn</span>
               <span className="span-styling">Tensorflow</span>
+              <span className="span-styling">LangChain</span>
               <span className="span-styling">Pandas</span>
               <span className="span-styling">Matplolib</span>
               <span className="span-styling">Numpy</span>

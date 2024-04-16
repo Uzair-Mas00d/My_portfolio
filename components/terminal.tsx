@@ -45,7 +45,7 @@ const Terminal = () => {
               case "user$: skill":
               case "user$:skill":
                 newOutput +=
-                  "Web development skill   Machine/Deep learning skill     Extras  \nNextjs\t\t\t\t\tSckit-learn\t\t\t\t\t\tPython \nDjango\t\t\t\t\tTensorflow\t\t\t\t\t\tC/C++  \nThree.js\t\t\t\tPandas\t\t\t\t\t\t\tBlender  \nMongodb\t\t\t\t\tMatplolib \nFirebase\t\t\t\tNumpy \nMySql \nReact \nTyprscript \nTailwind \nBootstrap \nHTML \nCss \nJavaScript"; 
+                  "Web development skill   Machine/Deep learning skill     Extras  \nNextjs\t\t\t\t\tSckit-learn\t\t\t\t\t\tPython \nDjango\t\t\t\t\tTensorflow\t\t\t\t\t\tC/C++  \nThree.js\t\t\t\tPandas\t\t\t\t\t\t\tBlender  \nMongodb\t\t\t\t\tMatplolib \nFirebase\t\t\t\tNumpy \nDocker\t\t\t\t\tLangChain \nSolidity \nEther.js \nHardhat \nExpress.js \nNode.js \nRedis \nMySql \nReact \nTyprscript \nTailwind \nBootstrap \nHTML \nCss \nJavaScript"; 
                 break;
 
               case "user$: experience":
